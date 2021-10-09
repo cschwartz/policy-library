@@ -1,0 +1,9 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "policy/library"
+require "policy/library/cli"
+require "policy/library/identity"
+
+Process.setproctitle Policy::Library::Identity::VERSION_LABEL
+Policy::Library::CLI.start
