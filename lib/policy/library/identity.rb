@@ -7,7 +7,7 @@ module Policy
       NAME = "policy-library"
       LABEL = "Policy Library"
       VERSION = "0.1.0"
-      VERSION_LABEL = "#{LABEL} #{VERSION}"
+      VERSION_LABEL = "#{LABEL} #{VERSION}".freeze
     end
   end
 end

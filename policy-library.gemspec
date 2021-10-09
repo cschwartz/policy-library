@@ -13,10 +13,10 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
 
   spec.metadata = {
-    "bug_tracker_uri" => "https://github.com//policy-library/issues",
-    "changelog_uri" => "https://github.com//policy-library/blob/master/CHANGES.md",
-    "documentation_uri" => "https://github.com//policy-library",
-    "source_code_uri" => "https://github.com//policy-library"
+    "bug_tracker_uri" => "https://github.com/cschwartz/policy-library/issues",
+    "changelog_uri" => "https://github.com/cschwartz/policy-library/blob/master/CHANGES.md",
+    "documentation_uri" => "https://github.com/cschwartz/policy-library",
+    "source_code_uri" => "https://github.com/cschwartz/policy-library"
   }
 
   spec.required_ruby_version = "~> 3.0"
